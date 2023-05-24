@@ -1,7 +1,7 @@
 import openpyxl
 import requests
 
-# Function to read book names from a column in an Excel spreadsheet
+# Function to read book names from a column in an Excel spreadsheet.
 def read_book_names(filename, sheet_name, column_name):
     workbook = openpyxl.load_workbook(filename)
     sheet = workbook[sheet_name]
